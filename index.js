@@ -80,6 +80,7 @@ app.post("/insertNewPaper", function (req, res) {
 
 });
 
-// app.get("/test",function (req, res){
-//     console.log(req.body)
-// })
+app.get("/test",function (req, res){
+    console.log(req.body)
+    res.end('200');
+})
